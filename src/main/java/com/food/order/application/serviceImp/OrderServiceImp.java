@@ -1,4 +1,4 @@
-package com.food.order.application.service;
+package com.food.order.application.serviceImp;
 
 import com.food.order.application.dto.ItemDTO;
 import com.food.order.application.dto.OrderDetailsDTO;
@@ -11,11 +11,12 @@ import com.food.order.application.repository.ItemRepository;
 import com.food.order.application.repository.OrderRepository;
 import com.food.order.application.repository.RestaurantRepository;
 import com.food.order.application.repository.UserRepository;
+import com.food.order.application.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class OrderServiceImp implements OrderService{
+public class OrderServiceImp implements OrderService {
 
 
     @Autowired

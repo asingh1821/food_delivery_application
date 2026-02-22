@@ -1,10 +1,11 @@
-package com.food.order.application.service;
+package com.food.order.application.serviceImp;
 
 import com.food.order.application.dto.ItemDTO;
 import com.food.order.application.entity.Item;
 import com.food.order.application.entity.Restaurant;
 import com.food.order.application.repository.ItemRepository;
 import com.food.order.application.repository.RestaurantRepository;
+import com.food.order.application.service.ItemService;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,7 +14,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 @Service
 @Slf4j

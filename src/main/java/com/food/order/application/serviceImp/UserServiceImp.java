@@ -1,15 +1,15 @@
-package com.food.order.application.service;
+package com.food.order.application.serviceImp;
 
-import com.food.order.application.dto.RequestOrderDTO;
 import com.food.order.application.entity.User;
 import com.food.order.application.repository.UserRepository;
+import com.food.order.application.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class UserServiceImp implements UserService{
+public class UserServiceImp implements UserService {
     Logger logger = LoggerFactory.getLogger(UserServiceImp.class);
     @Autowired
     private UserRepository userRepository;
